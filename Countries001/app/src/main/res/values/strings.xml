@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Countries001</string>
+    <string name="country1">Israel</string>
+    <string name="country2">USA</string>
+    <string name="country3">Russia</string>
+    <string name="country4">Germany</string>
+    <string name="country5">Poland</string>
+    <string name="country6">France</string>
 </resources>
