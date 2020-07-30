@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Hometsk2 For Chapter5"

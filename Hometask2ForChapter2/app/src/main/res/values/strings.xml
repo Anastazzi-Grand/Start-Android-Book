@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hometask2 For Chapter2</string>
+    <string name="random_number_10_99">Random number 1 (100..999)</string>
+    <string name="random_number_100_999">Random number 2 (100..999)</string>
+    <string name="sum_of_2_numbers_0">Which of the numbers is greater in absolute value?</string>
+    <string name="click_me">Click me!</string>
+</resources>

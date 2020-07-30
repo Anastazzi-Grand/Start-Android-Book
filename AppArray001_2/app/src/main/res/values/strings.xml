@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppArray001_2</string>
+    <string name="txt1">Array of integers</string>
+    <string name="txt2">Enter the number to search </string>
+    <string name="txt3">Fill the array</string>
+    <string name="txt4">Sum of array</string>
+    <string name="txt5">Min and Max</string>
+    <string name="txt6">Find value</string>
+</resources>

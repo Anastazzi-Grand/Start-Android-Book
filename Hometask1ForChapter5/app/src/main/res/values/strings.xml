@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hometask1 For Chapter5</string>
+    <string name="enter_number1">Enter number1</string>
+    <string name="enter_number2">Enter number2</string>
+    <string name="greatest_number">Which number is greater?</string>
+    <string name="click_me">Click me!</string>
+</resources>

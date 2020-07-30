@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hometask7 For Chapter5</string>
+    <string name="random_number_1to9">Random number between 1 and 9</string>
+    <string name="click_me">Click me!</string>
+    <string name="enter_a_number">Enter a number (1..9)</string>
+    <string name="did_you_guess_the_number">Did you guess the number?</string>
+</resources>

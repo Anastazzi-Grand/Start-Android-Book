@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Hometask5_6 For Chapter5"

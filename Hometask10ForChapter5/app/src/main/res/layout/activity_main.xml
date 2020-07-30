@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEAAFA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A073F1"
+        android:shadowColor="#2E2C2C"
+        android:text="Fraction check"
+        android:textAllCaps="true"
+        android:textColor="#FFEA31"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF0404"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etNumerator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="Enter numerator"
+            android:inputType="numberSigned"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etDenominator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter denominator"
+            android:inputType="numberSigned"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonCorrect"
+                android:onClick="isCorrectOrIncorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click!"
+                android:textAllCaps="false"
+                android:textColor="#EB7AFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCorrectFraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Is the fraction correct or incorrect?"
+                android:textColor="#925CF3"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonShrinking"
+                android:onClick="isShrinking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click!"
+                android:textAllCaps="false"
+                android:textColor="#EB7AFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvShrinkingFraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Is the fraction shrinking?"
+                android:textColor="#925CF3"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonPositive"
+                android:onClick="isPositiveOrNegative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click!"
+                android:textAllCaps="false"
+                android:textColor="#EB7AFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPositiveFraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Is the fraction positive or negative?"
+                android:textColor="#925CF3"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
